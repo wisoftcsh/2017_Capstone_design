@@ -32,7 +32,7 @@ public class SensingDao {
   }
 
   public List<Sensing> selectSensingList(int sensorId) throws Exception {
-    String query = "SELECT * FROM sensing WHERE sensorId=" + sensorId + " ORDER BY sensingId DESC LIMIT 50";
+    String query = "SELECT * FROM sensing WHERE sensorId=" + sensorId + " ORDER BY sensingId DESC LIMIT 100";
     try (Connection connection = ds.getConnection();
          PreparedStatement stmt = connection.prepareStatement(query)) {
       try (ResultSet rs = stmt.executeQuery()) {
