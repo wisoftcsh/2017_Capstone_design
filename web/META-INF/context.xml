@@ -20,9 +20,9 @@
            allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1"/>
     <Resource name="jdbc/space" auth="Container" type="javax.sql.DataSource"
               maxTotal="10" maxIdle="3" maxWaitMillis="10000"
-              username="space"
-              password="dblab321!"
+              username=""
+              password="!"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://203.230.100.156/space"
+              url="jdbc:mysql://.../space"
               closeMethod="close"/>
 </Context>

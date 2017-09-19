@@ -12,6 +12,7 @@
 <head>
     <title>Space Care System</title>
     <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -52,7 +53,9 @@
 
 <script>
   var options = {
-    height: 200
+    height: 500,
+    high: 35,
+    low: -35
   };
 
   var data = {
